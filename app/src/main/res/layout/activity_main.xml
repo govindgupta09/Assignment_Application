@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_exchange"
+        android:layout_width="125dp"
+        android:layout_height="24dp"
+        android:text="EXCHANGES"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="46dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/baseline_notifications_none_24"
+        android:layout_marginTop="48dp"
+        android:layout_marginStart="288dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/dot_notification"
+        android:layout_width="8dp"
+        android:layout_height="8dp"
+        android:background="@drawable/notification"
+        android:layout_marginStart="301dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/vector_settings"
+        android:layout_width="19.65dp"
+        android:layout_height="20dp"
+        android:src="@drawable/outline_settings_24"
+        android:layout_marginStart="323dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <View
+        android:layout_width="233dp"
+        android:layout_height="40dp"
+        android:background="@drawable/search_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="95dp"/>
+
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/baseline_search_24"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="109dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:layout_width="145dp"
+        android:layout_height="20dp"
+        android:text="Search Cryptocurrency"
+        android:textColor="#CAC9C9"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="106dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/filter_background"
+        android:layout_marginStart="268dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    
+    <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/baseline_filter_list_24"
+        android:layout_marginTop="107dp"
+        android:layout_marginStart="281dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_filter"
+        android:layout_width="32dp"
+        android:layout_height="16dp"
+        android:text="Filter"
+        android:textColor="#cccccc"
+        android:layout_marginTop="105dp"
+        android:layout_marginStart="297.50dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_cryptocurrency"
+        android:layout_width="154dp"
+        android:layout_height="24dp"
+        android:text="Cryptocurrency"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="157dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="24dp"
+        android:text="NFT"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#cccccc"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="157dp"
+        app:layout_constraintStart_toEndOf="@id/tv_cryptocurrency"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <View
+        android:layout_width="317dp"
+        android:layout_height="131dp"
+        android:background="@drawable/view_background"
+        android:layout_marginTop="196dp"
+        android:layout_marginStart="26dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <View
+        android:layout_width="46.48dp"
+        android:layout_height="46.48dp"
+        android:background="@drawable/bitcoin_background"
+        android:layout_marginTop="222dp"
+        android:layout_marginStart="46dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    
+    <ImageView
+        android:layout_width="21.89dp"
+        android:layout_height="28.97dp"
+        android:src="@drawable/metaverse"
+        android:layout_marginStart="57.85dp"
+        android:layout_marginTop="230.71dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:layout_width="37dp"
+        android:layout_height="22dp"
+        android:text="BTC"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="224dp"
+        android:layout_marginStart="107dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:layout_width="43dp"
+        android:layout_height="16dp"
+        android:text="Bitcoin"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="107dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:layout_width="106dp"
+        android:layout_height="19dp"
+        android:text="$55,000 USD"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="226dp"
+        android:layout_marginStart="217dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:layout_width="41dp"
+        android:layout_height="16dp"
+        android:text="+2.5%"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="#00CE08"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="282dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+<!--    <View-->
+<!--        android:id="@+id/vector"-->
+<!--        android:layout_width="317dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="275dp"-->
+<!--        android:layout_marginStart="26dp"-->
+<!--        android:background="@drawable/vector"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <View-->
+<!--        android:layout_width="317dp"-->
+<!--        android:layout_height="52.5dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginStart="26dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="275dp"-->
+<!--        android:background="#9900CE08"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <TextView
+        android:id="@+id/top_cryptoc"
+        android:layout_width="187dp"
+        android:layout_height="22dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="347dp"
+        android:layout_marginStart="26dp"
+        android:text="Top Cryptocurrencies"
+        android:textSize="18sp"
+        android:textAppearance="@style/top_cryptoc"
+        android:gravity="top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/view_all"
+        android:layout_width="50dp"
+        android:layout_height="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="293dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="352dp"
+        android:text="@string/view_all"
+        android:textAppearance="@style/view_all"
+        android:gravity="center_horizontal|top"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_cryptoc"/>
+
+    <View
+        android:id="@+id/group_98"
+        android:layout_width="289dp"
+        android:layout_height="54dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="725dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/background_navigationbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/metaverse_1"
+        android:layout_width="53.36dp"
+        android:layout_height="54dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/metaverse"
+        android:elevation="54dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

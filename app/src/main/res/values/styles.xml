@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="top_cryptoc">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#0B0B0B</item>
+    </style>
+    <style name="view_all">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#800B0B0B</item>
+    </style>
+    <style name="hop">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#66FFFFFF</item>
+    </style>
+</resources>

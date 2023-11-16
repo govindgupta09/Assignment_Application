@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="top_cryptoc">Top Cryptocurrencies</string>
+    <string name="view_all">View All</string>
+    <string name="hop">
+        \u00E2\u0082\u00AC-$hop
+    </string>
+</resources>
